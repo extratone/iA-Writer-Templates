@@ -1,0 +1,1 @@
+- [Bear Palettes](bear://x-callback-url/open-note?id=63E9108E-DB48-4D36-B464-88C121660F4B)
