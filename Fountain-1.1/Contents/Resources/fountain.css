@@ -1,0 +1,173 @@
+/* Reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display: block;
+}
+
+/* Text Selection Color Changes */
+::selection { color:rgba(88,110,117,1); background:rgba(238,232,213,1); }
+h2::selection { background:rgba(211,54,130,1); color:rgba(238,232,213,1); }
+p.transition::selection { background:rgba(133,153,0,1); color:rgba(238,232,213,1); }
+p.character::selection { background:rgba(238,232,213,.7); color:rgba(42,161,152,1); }
+p.dialog::selection { background:rgba(238,232,213,.7); color:rgba(38,139,210,1); }
+p.parenthetical::selection { background:rgba(238,232,213,.7); color:rgba(108,113,196,1); }
+
+/* Styles for Screenplain */
+body {
+text-align: center;
+}
+#wrapper {
+width: 480pt;
+text-align: left;
+font: 12pt 'Courier Final Draft','Courier Screenplay',Courier;
+padding: 24pt 0 0 90pt;
+margin:0 auto!important;
+position: relative;
+}
+header {
+margin-bottom: 1em;
+border-bottom: 1px solid black;
+}
+footer {
+margin-top: 1em;
+}
+em {
+font-style: italic;
+}
+strong {
+font-weight: bold;
+}
+br {
+clear: both;
+}
+
+/* Slug */
+
+div {
+width: 460pt;
+}
+h1:before {
+content: "\2022\00a0";
+font-size:18pt;
+vertical-align:-12%;
+margin-left:-12pt;
+}
+h2:before,h3:before,h4:before,h5:before {
+content: "\25e6\00a0";
+margin-left:-9pt;
+}
+h1,h2,h3,h4,h5{
+font:11pt 'Gill Sans','Helvetiva Neue',Helvetica,sans-serif;
+color: rgb(110, 110, 110);
+margin-top:24pt;
+border-top:dotted 1px rgb(199, 199, 199);
+background-image: -webkit-linear-gradient(top, rgb(255, 255, 245), rgb(255, 255, 255));
+}
+h1,.h1-synopsis {
+margin-left:-71pt;
+}
+h2,.h2-synopsis {
+margin-left:-61pt;
+}
+h3,.h3-synopsis {
+margin-left:-41pt;
+}
+h4,.h4-synopsis {
+margin-left:-21pt;
+}
+h5,.h5-synopsis {
+margin-left:-1pt;
+}
+.h1-synopsis,.h2-synopsis,.h3-synopsis,.h4-synopsis,.h5-synopsis,.h6-synopsis{
+display:block;
+font:10pt 'Gill Sans','Helvetiva Neue',Helvetica,sans-serif;
+color:rgb(145, 145, 145);
+font-style: italic;
+margin-bottom:5pt;
+}
+h6 {
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 2em;
+}
+div.block {
+position: relative;
+background: #fff;
+}
+div.action p {
+margin-top: 1em;
+}
+.centered {
+text-align: center;
+}
+div.dialog,div.dual {
+margin-top: 1em;
+}
+div.transition {
+margin-top: 1em;
+margin-bottom: 12pt;
+text-align: right;
+}
+.dialog p.character {
+padding-left: 153.33pt;
+}
+.dialog p.parenthetical {
+padding-left: 115pt;
+}
+.dialog p {
+padding-left: 76.67pt;
+width: 306.67pt;
+}
+.dual > div {
+float: left;
+width: 48%!important;
+}
+.dual p.character {
+padding-left: 6em;
+}
+.dual p.parenthetical {
+padding-left: 3em;
+}
+.dual p {
+padding-left: 0;
+width: 19em;
+}
+.dual .right {
+margin-left: 1em;
+}
+.dual .right p.character {
+padding-left: 6em;
+}
+span.scnuml {
+display: block;
+float: left;
+margin-left: -4.52em;
+font-weight: inherit;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+span.scnumr {
+display: block;
+float: right;
+margin-right: 0.72em;
+font-weight: inherit;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}

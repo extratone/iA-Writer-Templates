@@ -7,9 +7,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.ia.writer.template.github</string>
+	<string>com.extratone.writer.template.github</string>
 	<key>CFBundleName</key>
-	<string>GitHub</string>
+	<string>GitHubTest</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
@@ -21,10 +21,10 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>90</integer>
 	<key>IATemplateDescription</key>
-	<string>GitHub document style.</string>
+	<string>GitHub document style variant.</string>
 	<key>IATemplateAuthor</key>
-	<string>iA</string>
+	<string>David Blue</string>
 	<key>IATemplateAuthorURL</key>
-	<string>https://github.com/</string>
+	<string>https://bilge.world/</string>
 </dict>
 </plist>

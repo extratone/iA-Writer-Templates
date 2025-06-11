@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" media="all" href="normalize.css">
+  <link rel="stylesheet" media="all" href="fonts/fonts.css">
+  <link rel="stylesheet" media="all" href="screenplay.css">
+</head>
+  <body class="header">
+    <p id="page-number-para"><span data-page-number class="page-number">&nbsp;</span></p>
+  </body>
+</html>
+<script>
+
+var pageNumberElement = document.body.getElementsByClassName('page-number')[0]   
+var vanityPages = 0
+
+pageNumberElement.addEventListener('ia-writer-change', function() {
+  // No page number for title, vanity pages or first page of script
+  if (parseInt(pageNumberElement.innerHTML) <= (vanityPages + 2)) {
+    document.body.getElementsByClassName('page-number')[0].innerHTML = ''
+  } else {
+    var newPageNumber = parseInt(pageNumberElement.innerHTML) - vanityPages - 1
+    document.body.getElementsByClassName('page-number')[0].innerHTML = newPageNumber + '.'
+  }
+})
+</script>

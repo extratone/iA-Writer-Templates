@@ -1,0 +1,9 @@
+# Acknowledgments
+
+Commentary in the these files has been provided by the following GMs:
+
+Rounds 1-3: GM David Navara
+Rounds 4-9: GM Maxime Lagarde
+Rounds 10-14: GM Yannick Gozzoli
+
+These pgns were compiled in a lichess.org study, found here: https://lichess.org/study/LF4x850G/dnE80tFW

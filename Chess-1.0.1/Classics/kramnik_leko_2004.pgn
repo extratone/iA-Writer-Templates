@@ -1,0 +1,133 @@
+[Event "Classical World Championship Match"]
+[Site "Brissago SUI"]
+[Date "2004.10.18"]
+[EventDate "?"]
+[Round "14"]
+[Result "1-0"]
+[White "Vladimir Kramnik"]
+[Black "Peter Leko"]
+[ECO "B12"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "81"]
+ 
+{(Notes by GM Ray Keene.) Kramnik, the defending world
+champion, scored a brilliant victory in the 14th and final
+game; Peter Leko resigned after 41 moves when faced with
+checkmate. This is only the third time in the entire history
+of the World Championship that the defending champion has
+saved his title by winning in the final game. The game itself
+was a jewel of controlled aggression. Despite consistent
+exchanges throughout the game, Kramnik maintained an iron grip
+on the position and ultimately blasted his way into the black
+camp via the dark squares. Taking no account of material
+sacrifices it was Kramnik’s king that dealt the fatal blow
+when it marched right into the heart of the opposing
+position. This outstanding game, the best of the match,
+recalled the classic fifth game won by Petrosian against
+Botvinnik in 1963 when a similarly epic king march in an
+endgame brought White a classic victory. "I had to give
+everything, especially at the end, to win against such an
+opponent. Peter Leko is an incredible defender. For me it was
+more difficult than my match against Kasparov in the year
+2000", said Kramnik after the game. Leko said in conclusion:
+"It was a very hard fight. In the end, it was not enough for
+me to win the title. I'm disappointed, but I'm looking forward
+to the future. I'm 25 years old, and I hope to get a new
+chance to become world champion." } 1. e4 c6 {Leko is not averse to
+repeating the main lines of the Caro-Kann.} 2. d4 d5 3. e5 {By
+contrast, Kramnik must seek sharper paths. This move, favoured
+by Nimzowitsch, Tal and Short, is ideal for a must-win
+situation, since it locks pawn formations and avoids premature
+exchanges.} Bf5 4. h4 {Nimzowitsch liked this 3 e5 variation
+and would play here 4 Bd3. His most famous game with this line
+is sadly a loss, a magnificent manoeuvring game against
+Capablanca from New York 1927. The most common alternative
+these days is 4 Nc3, as played for example by Kasparov in a
+drastic win over Karpov at Linares 2001, which continued
+4...e6 5 g4 Bg6 6 Nge2 Ne7 7 Nf4 c5 8 dxc5 Nd7 9 h4 Nxe5 10
+Bg2 h5 11 Qe2 N7c6 12 Nxg6 Nxg6 13 Bg5 Be7 14 gxh5 Nf8 15 Nb5
+Nd7 16 h6. The latest try for Black is 4 Nc3 a5!? as in
+Sebag-Chiburdanidze, FIDE WCh Women KO, Elista 2004. Black won
+in 33 moves after 5 Be3 a4 6 a3 Qb6 7 Rb1 Qa5 8 g4 Bd7 9 Bg2
+e6 10 Nge2 c5 11 0–0 Nc6 12 f4 h5. This 4 h4 line was tested
+repeatedly in the Tal-Botvinnik WCC match, Moscow 1961, with
+generally favourable results for Black. The paths they
+followed are retraced below.} h6 {4...h5 may be preferable,
+after which Tal tried 5 Ne2 e6 6 Ng3 g6 7 Nxf5 gxf5 8 c4 c5 9
+cxd5 Qxd5 but only drew their 14th game from 1961.} 5. g4
+{Instead 5 Ne2 is possible and in their 20 th game 5 e6 6 Ng3
+Ne7 7 Nc3 Nd7 8 Be3 Bh7 9 Bd3 Bxd3 10 cxd3 h5 led to a
+marathon struggle and another draw.} Bd7 {It looks more
+natural to retreat the bishop along the b1-h7 diagonal, but,
+in that case, Black has to reckon with the dangerous pawn sac
+e5-e6.} 6. Nd2 {This looks like a new move. In the 10th
+Tal-Botvinnik game from 1961, we saw 6 h5 c5 7 c3 Nc6 8 Bh3 e6
+9 Be3 Qb6 10 Qb3 cxd4 11 Qxb6 axb6 12 cxd4 Na5 and Black won
+in 42; while the 18 th game followed the course 6 c3 c5 7 Bg2
+e6 8 Ne2 Bb5 9 Na3 Bxe2 10 Qxe2 cxd4 11 cxd4 Bxa3 12 bxa3 Nc6
+and Black won again. However, Tal persisted with this line,
+and in Tal-Pachman, Bled 1961, he finally won after launching
+an attack following 7... e6 8 f4 Qb6 9 Nf3 Nc6 10 Na3 cxd4 11
+cxd4 O-O-O 12 Nc2 Kb8 13 Bd3 Nge7 14 Rb1 Na5 15 Bd2 Rc8 16
+b4.} c5 {Black has one way to free himself before White's
+pawns begin to exert a fatal grip.} 7. dxc5 e6 8. Nb3 Bxc5 {A
+small combination that regains his pawn, but at the cost of
+trading his dark squared bishop. 9...Qc7 would doubtless
+transpose, but this is more forcing.} 9. Nxc5 Qa5+ 10. c3 Qxc5
+11. Nf3 Ne7 12. Bd3 Nbc6 13.Be3 Qa5 14. Qd2 {The tone of play
+for the middlegame is set -- Black's position is resilient,
+but White has a promising future on the central dark
+squares. Fritz now wanted to try the line-opening gambit
+14...d4!?, but no human player would yet regard such drastic
+measures as necessary. (It's a mark of how far computer
+programs have advanced that Fritz makes this dynamic choice.)}
+Ng6 15. Bd4 {Accepting some exchanges, but White's dark square
+grip persists. In contrast, 15 Bxg6 gives black too much
+counterplay along the half-open f-file.} Nxd4 16.cxd4 Qxd2+
+17.Kxd2 Nf4 18.Rac1 {From now on, White's play is direct and
+brutal. I would have played Bf1 and followed it with
+Ke3. Kramnik has no truck with such sophisticated nuances and
+goes directly for the jugular.} h5 {And here I would have left
+Black's king's-side pawns severely alone and traded on
+d3. After 18...Nxd3 19 Kxd3 Ke7 20 Rc7 Rab8 followed by
+...Rhc8, I believe Black could withstand the onslaught from
+White, though it must be admitted that White's knight will
+always be superior to Black's bishop.} 19. Rhg1 {19 g5 is
+possible instead, but Kramnik is all for open lines.} Bc6
+20.gxh5 Nxh5 21.b4 a6 22.a4 {An admirable display of energy,
+but, after 22...Bxa4 23 Rc7 Bb5 24 Rxb7 O-O, Black reduces the
+tension and gains counterplay. Taking the pawn could even be
+dangerous for White after 25 Bxb5 axb5 26 Rxb5 Ra2+. For this
+reason, I prefer 22 Ke3 restricting Black's knight, and if
+22...O-O then 23 Rg5 g6 24 Rcg1 Ng7 25 h5! or if 24...Kh8 25
+Bxg6! fxg6 26 Rxg6 Rf7 27 Ng5 and wins.} Kd8 {? Leko exhibits
+an alarming tendency towards a bunker mentality. After this
+passive move, Black is strangled in the style of his hero
+Petrosian or of Nimzowitsch, the arch-blockader and early
+prophet of 3 e5 against the Caro-Kann.} 23. Ng5 Be8 24.b5 Nf4
+{Clearing the a-file merely offers White a further avenue of
+attack after 24...axb5 25 axb5 Ra3 26 Ra1!} 25.b6 {Creating a
+terrible outpost on c7 for his rook. Black must prevent such
+an invasion at all costs.} Nxd3 26.Kxd3 Rc8 27.Rxc8+ Kxc8
+28.Rc1+ Bc6 {Black has plugged one path for White's forces but
+more soon open. Black, we soon see, is fatally debilitated on
+the central dark square complex.} 29.Nxf7 Rxh4 30.Nd6+ Kd8
+31.Rg1 Rh3+ {Passive defence is hopeless, so Black tries to
+clear off as many white pawns as he can. } 32.Ke2 Ra3 33.Rxg7
+Rxa4 34.f4 {!! The decisive coup. White's small but highly
+efficient army is ready to concentrate its powers and deal the
+death blow. If now 34...Rxd4, then 35 f5 exf5 36 e6 Re4+ 37
+Nxe4 fxe4 38 Rc7, threatening Rxc6, and if 37...Bb5+, 38 Ke3
+when Black's b-pawn is doomed and White's king penetrates.}
+Ra2+ 35.Kf3 Ra3+ 36.Kg4 Rd3 37.f5 {The same theme. The way
+White's king now takes the Black fortress by storm with just
+rook and knight against rook and bishop reminds me strongly of
+the epic king march and superlative conclusion of game 5 from
+the Petrosian-Botvinnik WCC match, Moscow 1963.} Rxd4+ 38.Kg5
+exf5 39.Kf6 Rg4 40.Rc7 Rh4 41.Nf7+ {Black resigns since
+41...Ke8 42 Rc8+ Kd7 43 Rd8 is mate. A jewel of a game and a
+sublime atonement for the sins of omission in some previous
+games of this match. Now compare the celebrated king march by
+Petrosian that doubtless provided inspiration for Kramnik as
+he conducted his final onslaught. } 1-0

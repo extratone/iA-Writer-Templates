@@ -1,0 +1,63 @@
+[Event "La Bourdonnais - McDonnell 1st Casual Match"]
+[Site "London ENG"]
+[Date "1834.??.??"]
+[EventDate "1834.00.01"]
+[Round "21"]
+[Result "0-1"]
+[White "Louis Charles Mahe De La Bourdonnais"]
+[Black "Alexander McDonnell"]
+[ECO "C23"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "78"] 
+
+{Notes by Morphy} 1. e4 e5 2. Bc4 Bc5 3. Qe2 {For notes on the
+opening see the nineteenth game between the same players. }
+Nf6 4. d3 Nc6 5. c3 Ne7 {Premature and a loss of time. Black
+should have played 5...d6 or 5...O-O. } 6. f4 exf4 {It is
+seldom advisable to capture this pawn in the Lopez Gambit.}
+7. d4 Bb6 8. Bxf4 d6 {This pawn should have been played to d5
+to break up the advanced center pawns. } 9. Bd3 Ng6 10. Be3
+O-O 11. h3 Re8 12. Nd2 Qe7 13. O-O-O c5 14. Kb1 cxd4 15. cxd4
+a5 16. Ngf3 Bd7 17. g4 h6 18. Rdg1 a4 19. g5 hxg5 20. Bxg5 a3
+21. b3 Bc6 22. Rg4 Ba5 23. h4 Bxd2 24. Nxd2 Ra5 25. h5 Rxg5
+{An examination of the position will satisfy the reader that
+the retreat of the Knight would have subjected Black to an
+attack which would soon have proved irresistible. By thus
+sacrificing the exchange, Black in turn assumes the opposite,
+the only course which gave promise of a favorable result. }
+26. Rxg5 Nf4 27. Qf3 Nxd3 28. d5 {If 28.Qxd3, then follows on
+the part of Black, 28...Nxe4, with a won game. } Nxd5 29. Rhg1
+{Well played. The game which has now become critical for both
+parties is, by both, conducted with skill and judgement. Had
+White now played any other move than the one adopted he must
+have speedily lost. Suppose first 29.Rxd5 Bxd5 30.Qxd3 Bxe4
+31.Nxe4 Qxe4 and Black having five pawns to three, now compels
+an exchange of queens, and must win. Or 29.Rxd5 Bxd5 30.exd5
+Qe3 31.Qxe3 (best) Rxe3 again winning through his superiority
+in pawns. And secondly if 29.Qxd3 Qxg5 30.exd5 Qxd5 and Black
+wins. And thirdly, if 29.exd5 Qxg5 30.Qxd3 (best) Qxd5 and we
+have the same position as in the last variation. } Nc3+
+30. Ka1 {If 30.Kc2 Qxg5 31.Rxg5 (best) Ne1+ 32.Kxc3 Nxf3
+33.Nxf3 Rxe4 and Black must win. } Bxe4 31. Rxg7+ Kh8 32. Qg3
+Bg6 { This move should have cost Black the game. Black's
+proper course was to play 32...Qf6, a move not only productive
+of many highly interesting variations, but one which would
+have ensured the game. Let us suppose 32...Qf6 33.Rg8+ Kh7
+34.Qg7+ ( 34.Rg7+ Kh6 35.Qe3+ Nf4 and Black will win) Qxg7
+35.R1xg7+ (35.R8xg7+ Kh6 36.Rxf7 (36.Nxe4 Rxe4 37.Rg8 Re1+
+38.Rxe1 Nxe1 and Black again wins.) White may here and
+afterwards move differently, but it will be found that, in
+every case, Black's superiority in force and position must
+secure him the game ...Nb4 37.Rf6+ Kxh5 38.Rc1 (must) Nc2+ and
+Black wins) 35...Kh6 36.Rxe8 Nb4 and White cannot prolong the
+contest beyond a few moves.. [32...Qf6 33.Rg8+ Kh7 34.Qg7+
+(34.Rg7+ Kh6 35.Qe3+ Nf4) 34...Qxg7 A) 35.R8xg7+ Kh6 36.Rxf7
+(36.Nxe4 Rxe4 37.Rg8 Re1+ 38.Rxe1 Nxe1) 36...Nb4 37.Rf6+ Kxh5
+38.Rc1 Nc2+; B) 35.R1xg7+ 35...Kh6 36.Rxe8 Nb4] } 33. hxg6
+Qe1+ 34. Rxe1 {White as suggested by the Chessplayer's
+Chronicle (Vo.II.p.361) might now have won in the following
+manner. 34.Nb1 Qxg3 35.Rh7+ Kg8 36.gxf7+ Kxh7 37.Rh1+ Kg7
+38.fxe8=Q and White easily scores the game. } Rxe1+ 35. Qxe1
+Nxe1 36. Rh7+ Kg8 37. gxf7+ Kxh7 38. f8=N+ Kh6 39. Nb1 Nc2#
+0-1

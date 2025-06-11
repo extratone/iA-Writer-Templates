@@ -1,0 +1,292 @@
+html, body {
+  
+  
+}
+
+#printview {
+  visibility: hidden;
+  .black-3c85d {
+    background-color: #909090;
+    background:
+    /*repeating-linear-gradient(
+      135deg,
+      #FFFFFF,
+      #FFFFFF 2px,
+      #909090 2px,
+      #909090 4px
+    ) */
+  }
+  .white-1e1d7 {
+    background-color: #FFFFFF;
+  }
+  h1 {
+    margin-top: 0;
+  }
+}
+
+#webview {
+  h1 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    
+  h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "webboard webboard movelist";
+    @media (max-width: 580px) {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+        "webboard"
+        "movelist";
+    }
+  }
+  
+  #boardandplayers {
+    width: 100%;
+    grid-area: webboard;
+  }
+  
+  #printedmoves {
+    grid-area: movelist;
+    
+    #webmovelist {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 1.5rem;
+      margin-top: 1rem;
+      
+      @media (max-width: 580px) {
+        
+        display: flex;              /* Use flexbox to layout items horizontally */
+        flex-wrap: nowrap;          /* Prevent wrapping onto multiple lines */
+        margin-left: 0;
+        margin-top: 0.5rem;
+        overflow-x: auto;           /* Allow horizontal scrolling */
+        overflow-y: hidden;         /* Disable vertical scrolling */
+        
+        
+      }
+
+      
+    }
+    
+    #webmovelist::-webkit-scrollbar {
+      display: none;
+    }
+    
+    #moveslabel {
+      @media (max-width: 580px) {
+        display: none;
+
+      }
+    }
+    
+    span.move-number {
+      margin-left: 0.5rem;
+      line-height: 1.6;
+    }
+    
+    #scroller {
+      border: solid 2px;
+      width: 100%;
+      overflow-y: auto;
+      @media (max-width: 580px) {
+        overflow-x: auto;             /* Enable horizontal scroll */
+        overflow-y: hidden;           /* Hide vertical scroll */
+        white-space: nowrap;          /* Ensure the moves stay in a single line */
+      }
+    }
+      
+      span {
+        align-self: center;
+      }
+    }
+    
+  span.clickable-move {
+      padding: 1px 5px;            
+      border-radius: 5px;               
+      background-size: contain;
+      line-height: 1.6;
+    }
+  
+  
+
+
+  #movesandbuttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+      "scroller scroller scroller"
+      "flip previous next";
+    grid-gap: 5px;
+    justify-content: space-around;
+  }
+  
+  #prevBtn {
+    grid-area: previous;
+  }
+  
+  #nextBtn {
+    grid-area: next;
+  }
+  
+  #flipBtn {
+    grid-area: flip;
+  }
+  
+  #scroller {
+    grid-area: scroller;
+  }
+  
+  #webcomments {
+    margin-top: 2rem;
+  }  
+ 
+  
+  
+  
+  
+
+  
+}
+
+/* Default background for clickable moves */
+.clickable-move {
+  background-color: transparent; /* Or any default background color */
+}
+
+/* Style for the selected move */
+.clickable-move[data-selected="true"] {
+  background-color: #0099CC40; /* Background color for the selected item */
+}
+
+.night-mode .clickable-move[data-selected="true"] {
+  background-color: #0099CC; /* Background color for the selected item */
+  color: #FFF;
+}
+
+
+
+
+ /* Buttons */
+  #prevBtn, #nextBtn, #flipBtn {
+    display: inline-block;
+    min-height: 40px;           /* Set height for buttons */
+    border: 2px solid #000; /* 2px solid black border */
+    background-color: #fff; /* White background */
+    text-align: center;     /* Center text (not used but for consistency) */
+    cursor: pointer;       /* Pointer cursor on hover */
+    transition: all 0.2s ease; /* Smooth transition for hover/depressed state */
+    border-radius: 5px;     /* Rounded corners */
+    position: relative;     /* To position pseudo-elements inside */
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  /* Hover state */
+  #prevBtn:hover, #nextBtn:hover, #flipBtn:hover {
+    background-color: #0099CC40; /* Light grey background on hover */
+    border-color: #333;        /* Darken the border on hover */
+  }
+
+  /* Active (depressed) state */
+  #prevBtn:active, #nextBtn:active, #flipBtn:active {
+    background-color: #0099CC40; /* Darker grey background when button is pressed */
+    border-color: #666;        /* Darker border when pressed */
+    /*transform: translateY(4px); /* Move the button down slightly */
+  }
+
+  /* Disabled state */
+  #prevBtn:disabled, #nextBtn:disabled, #flipBtn:disabled {
+    background-color: #e0e0e0; /* Light grey background for disabled */
+    border-color: #b0b0b0;      /* Lighter border for disabled */
+    color: #a0a0a0;             /* Grey text */
+    cursor: not-allowed;        /* No cursor change on hover */
+  }
+  
+/* Night Mode for specific buttons */
+  .night-mode #prevBtn, 
+  .night-mode #nextBtn, 
+  .night-mode #flipBtn {
+    background-color: #101010; 
+    color: #dedede;
+    border-color: #cccccc;
+  }
+
+/* Night Mode for specific buttons */
+  .night-mode #prevBtn:hover, 
+  .night-mode #nextBtn:hover, 
+  .night-mode #flipBtn:hover {
+    border-color: #FFF;
+    color: #FFF;
+  }
+
+  .night-mode #prevBtn:active, 
+  .night-mode #nextBtn:active, 
+  .night-mode #flipBtn:active {
+    background-color: #101010;
+  }
+
+    /* Colors for OS X */
+@media screen and (min-device-width: 1152px) {
+  
+  /* Night Mode for specific buttons */
+  .night-mode #prevBtn, 
+  .night-mode #nextBtn, 
+  .night-mode #flipBtn {
+    background-color: #101010; 
+    color: #dedede;
+    border-color: #b0b0b0;
+  }
+}
+
+
+
+
+
+@media print {
+  
+  body, html {
+    overflow: visible; /* Allow scrolling for printing */
+  }
+  
+  #printview {
+    visibility: visible;
+  }
+  #webview {
+    display: none;
+  }
+  
+  #printboard1 {
+    margin-left: auto;
+    margin-right: auto;
+    
+    h1 {
+      margin-top: 0;
+    }
+    
+    
+  } 
+  .board-and-comment-wrapper {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    page-break-inside: avoid;
+    justify-items: start;
+  }
+  
+  .pdfcomment {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 2rem;
+    
+  }
+  
+}

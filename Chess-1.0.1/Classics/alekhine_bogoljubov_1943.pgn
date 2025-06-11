@@ -1,0 +1,44 @@
+[Event "Match"]
+[Site "Warsaw POL"]
+[Date "1943.03.28"]
+[EventDate "?"]
+[Round "2"]
+[Result "1-0"]
+[White "Alexander Alekhine"]
+[Black "Efim Bogoljubov"]
+[ECO "D30"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "63"]
+
+{Notes by Alekhine} 1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 dxc4
+5. Qa4+ Qd7 {The exchange of Queens that Black will force with
+this maneuver gives him very few advantages, because it does
+not solve the chief problem, which is the development of the
+queen's bishop.} 6. Qxc4 Qc6 7. Nbd2 Qxc4 8. Nxc4 Bb4+ 9. Bd2
+Bxd2+ 10. Ncxd2 {Preferable to 10 Nfxd2 which, after 10...Nc6
+11 Nf3 Nb4! would have offered Black some changes. Despite the
+simplification Black still faces a difficult problem: if he is
+compelled to play ...c6 what future will be left for the
+bishop? Boglojubov takes a radical measure; with t6he aim of
+protecting the points he prepares to castle long. In the
+continuation we shall see the weak side of this strategy.} Nc6
+11. Bg2 Bd7 12. O-O O-O-O 13. Rac1 Rhe8 14. Nc4 {It goes
+without saying that White will not allow ...e5.} Re7 15. a3
+Be8 16. Rfd1 Nd5 17. b4 Nb6 18. b5 {! An important move which
+forces the knight to withdraw and permits the blocking of the
+queen's side. For if 18...Nxc4 then 19 bxc6 Nxa3 20 cxb7+ Kxb7
+21 Ne5+ Kc8 22 Nc6 Bxc6 23 Bxc6 Rd6 24 Rc3 followed by 25 Ra1
+and wins.} Nb8 19. Nxb6+ axb6 20. a4 f6 21. Bh3 {Threatening
+to advance the d-pawn.} Bd7 {Now it seems that Black is at
+last going to free himself by 22...e5.} 22. Nd2 {!! Decisive,
+because if 22...e5 there follows 23 Nc4 with the threat of 24
+Nxb6 mate. What follows now is practically all forced.} Rf8
+23. Bg2 {! 23 Nc4 would allow Black to play 23...Kd8, followed
+by 24...Bc8.} c6 24. Nc4 Kc7 25. e4 cxb5 {desperation, since
+there is no defence against the advance of the d-pawn.}
+26. axb5 Bxb5 27. d5 {! More accurate than 27 Na3+ Bc6 28 d5,
+after which Black would not have been under any obligation to
+exchange pawns.} exd5 28. Na3+ Bc6 29. exd5 Rd7 30. Nb5+ Kd8
+31. dxc6 bxc6 32. Nd4 {! This wins at least a pawn. An
+instructive game from the strategic point of view.} 1-0
