@@ -1,0 +1,8 @@
+.night-mode body {
+  background-color: #151515;
+  color: #ddd;
+}
+
+.night-mode a:link, .night-mode .tufte-underline, .night-mode .hover-tufte-underline:hover {
+  text-shadow: 0.03em 0 #151515, -0.03em 0 #151515, 0 0.03em #151515, 0 -0.03em #151515, 0.06em 0 #151515, -0.06em 0 #151515, 0.09em 0 #151515, -0.09em 0 #151515, 0.12em 0 #151515, -0.12em 0 #151515, 0.15em 0 #151515, -0.15em 0 #151515;
+}
