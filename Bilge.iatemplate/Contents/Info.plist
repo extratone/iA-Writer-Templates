@@ -7,9 +7,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.example.template</string>
+	<string>world.bilge.ia</string>
 	<key>CFBundleName</key>
-	<string>Example</string>
+	<string>The Psalms</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -27,9 +27,9 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>90</integer>
 	<key>IATemplateDescription</key>
-	<string>Example template.</string>
+	<string>iA Writer Template meant to replicate the style of bilge.world.</string>
 	<key>IATemplateAuthor</key>
-	<string>Example</string>
+	<string>David Blue</string>
 	<key>IATemplateAuthorURL</key>
 	<string>https://example.com</string>
 </dict>
