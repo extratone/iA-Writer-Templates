@@ -1,0 +1,45 @@
+ /* Light mode */
+:root {
+	--text: #000000;
+	--link: #1565C0;
+	--link_visited: #1565C0;
+	--accent1: #333333;
+	--accent2: #666666;
+	--background: #ffffff;
+	--code: #e3e3e3;
+	--button-text: #ffffff;
+	--blockquote: #fffee0;
+	--blockquote-border: #e5d600;
+	--aside: #e0f7fa;
+	--aside-border: #0097a7;
+	--note: #e8f5e9;
+	--note-border: #d5e1d6;
+	--alert: #ffebee;
+	--alert-border: #d32f2f;
+	--field: #fffee0;
+	--mark: #FFFF99;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: #f8f8f2;
+		--link: #b97c51;
+		--link_visited: #594a7c;
+		--accent1: #f8f8f2;
+		--accent2: #f8f8f2;
+		--background: #1a1c1d;
+		--code: #44475a;
+		--button-text: #282a36;
+		--blockquote: #44475a;
+		--blockquote-border: #6272a4;
+		--aside: #6272a4;
+		--aside-border: #7797b7	;
+		--note: #3f444a;
+		--note-border: #4f545a;
+		--alert: #ff5555;
+		--alert-border: #ff6e6e;
+		--field: #44475a;
+		--mark: #FFFF99;
+	}
+}
