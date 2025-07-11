@@ -1,6 +1,13 @@
 @import url('https://use.typekit.net/kst2rrh.css');
 
-body {
+html {
+    font-family: adobe-caslon-pro, serif !important;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFF4E6;
+}
+
+.markdown-body {
     font-family: adobe-caslon-pro, serif !important;
     font-weight: 400;
     font-style: normal;
@@ -9,7 +16,7 @@ body {
 
 /* old background-color: #f2f2f2 */
 
-#blog-title a {
+.markdown-body a {
     font-family: proxima-nova-condensed, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -46,7 +53,7 @@ header nav a {
     /* margin-bottom: 1em; */
 }
 
-body,
+.markdown-body,
 article {
     font-family: adobe-caslon-pro, serif !important;
     font-weight: 400;
@@ -59,12 +66,12 @@ article {
 }
 
 
-body,
+.markdown-body,
 article a:link {
     color: #00006b;
 }
 
-body,
+.markdown-body,
 article a:visited {
     color: #FF0000;
 }
@@ -129,7 +136,7 @@ code {
     /* padding: 0px 0px 0px 0px !important; */
 }
 
-body #post pre, body#collection pre, body#post pre, body#subpage pre {
+.markdown-body #post pre, .markdown-body#collection pre, .markdown-body#post pre, .markdown-body#subpage pre {
     background: #FFFdeb; !important;
     border: 1px solid #da2573 !important;
     border-radius: 1px !important;
@@ -160,14 +167,14 @@ body footer nav {
     color: #00006b;
 }
 
-blockquote {
+.markdown-body blockquote {
     font-family: proxima-nova-condensed, sans-serif;
     font-weight: 400;
     color: #333333 !important;
     border-left: 2.5px solid #00006b !important;
 }
 
-table {
+.markdown-body table {
     background-color: #FFFdeb !important;
     font-size: 0.8em !important;
     line-height: 1.2em;
@@ -184,25 +191,25 @@ article table td, article table th {
 }
 
 
-.gist {
+.markdown-body .gist {
     font-family: proxima-nova-condensed, sans-serif !important;
     font-weight: 400 !important;
     font-size: 18px !important;
 }
 
-.gist .gist-meta {
+.markdown-body .gist .gist-meta {
     font-family: proxima-nova-extra-condensed, sans-serif !important;
     font-weight: 600 !important;
     color: #1c0021 !important;
 }
 
-.gist, .gist article, .gist article p {
+.markdown-body .gist, .gist article, .gist article p {
     font-family: proxima-nova-condensed, sans-serif !important;
     font-weight: 400 !important;
 }
 
 
-.gist .gist-file .gist-data {
+.markdown-body .gist .gist-file .gist-data {
     background: #FFFdeb; !important;
     border: 1px solid #da2573 !important;
     border-radius: 1px !important;
@@ -212,7 +219,7 @@ article table td, article table th {
     font-weight: 400;
 }
 
-.gist, .gist article, .gist article p {
+.markdown-body .gist, .gist article, .gist article p {
     white-space: normal !important;
 }
 
@@ -220,92 +227,21 @@ article table td, article table th {
     display: hide !important;
 } */
 
-hr {
+.markdown-body hr {
     border: 2px solid red;
 }
 
 
-body footer a.home:link,
-body footer a.home:visited {
+.markdown-body footer a.home:link,
+.markdown-body footer a.home:visited {
     color: #00006b;
 }
 
-.action {
+.markdown-body .action {
     font-family: proxima-nova-condensed, sans-serif;
 }
 
-nav#manage ul a {
-    color: #00006b;
-}
-
-nav#paging a {
-    color: #00006b !important;
-    font-family: proxima-nova-condensed, sans-serif !important;
-}
-
-
-a.bt {
-    background-color: #0d0d0d !important;
-    color: #00006b !important;
-}
-
-a.hashtag {
-    font-family: proxima-nova-condensed, sans-serif;
-    font-weight: 700;
-    color: #00006b !important;
-}
-
-body#collection #wrapper time,
-body#subpage #wrapper time,
-body#post article time.dt-published,
-body#subpage article time.dt-published {
-    font-family: proxima-nova-condensed, sans-serif;
-    font-weight: 700;
-    font-size: 0.95em;
-    color: #00006b !important;
-}
-
-
-.custom-nav {
-    text-align: center;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    font-family: proxima-nova-condensed, sans-serif;
-    font-weight: 700;
-    color: red;
-}
-
-.custom-nav a:link,
-.custom-nav a:visited,
-.custom-nav a:hover,
-.custom-nav a:active {
-    color: #00006b;
-}
-
-.custom-nav a:hover,
-.custom-nav a:active {
-    text-decoration: underline;
-}
-
-#subscribe-btn {
-    border: 1px #FF0000;
-    background: #00006b;
-    font-family: proxima-nova-condensed, sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    color: #FFF4E6;
-}
-
-#emailsub {
-    font-family: proxima-nova-condensed, sans-serif !important;
-    font-weight: 700;
-}
-
-sup {
-    vertical-align: auto !important;
-}
-
-.footnote {
+.markdown-body footer {
     font-family: proxima-nova-condensed, sans-serif !important;
     font-weight: 700;
     /*vertical-align: sub !important; */
@@ -314,22 +250,4 @@ sup {
     font-size: 0.8em;
     line-height: 0.1em !important;
     text-decoration:underline #FF0000;
-}
-
-.footnote-ref {
-    margin-left:15px;
-    font-family: proxima-nova-condensed, sans-serif !important;
-    font-weight: 700;
-    /* margin-left:2.5px; */
-    color: #da2573 !important;
-    font-size: 1.15em;
-    /* text-decoration:underline #FF0000; */
-}
-
-.footnote-ref-text {
-    font-family: proxima-nova-condensed, sans-serif !important;
-    font-weight: 400;
-    color: #1c0021 !important;
-    font-size: 1em;
-    /* border-top: #00006b dotted 1px; */
 }
